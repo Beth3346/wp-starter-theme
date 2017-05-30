@@ -1,8 +1,8 @@
 {
-    "name": "elr/elr-portfolio",
+    "name": "elr/wp-starter-theme",
     "type": "wordpress-theme",
     "license": "MIT",
-    "description": "WordPress theme for portfolio and resumè sites",
+    "description": "WordPress starter theme",
     "homepage": "http://www.elizabeth-rogers.com",
     "authors": [
     {
