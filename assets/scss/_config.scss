@@ -1,0 +1,15 @@
+// Variables
+
+// place any config options you want to override here
+
+$sans-serif-font: raleway, sans-serif;
+$serif-font: 'roboto slab', serif;
+$font-family: $sans-serif-font;
+$border: 1px solid #eee;
+
+$h1: to-rems(36px);
+$h2: to-rems(30px);
+$h3: to-rems(24px);
+$h4: to-rems(18px);
+$h5: to-rems(16px);
+$h6: to-rems(14px);

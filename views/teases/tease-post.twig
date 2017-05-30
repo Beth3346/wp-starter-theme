@@ -1,0 +1,32 @@
+{% extends "teases/tease.twig" %}
+
+{% block content %}
+    <article class="post">
+        {% if post.thumbnail.src %}
+        <figure class="post-image">
+            <a href="{{post.link}}">
+                <img src="{{post.thumbnail.src}}" />
+            </a>
+        </figure>
+        {% endif %}
+        <div class="post-content">
+            <header class="post-header">
+                <h3 class="post-title"><a href="{{post.link}}">{{post.title}}</a></h3>
+                <ul class="post-meta">
+                    <li class="post-author">
+                        <i class="fa fa-user"></i> <a href="{{post.author.link}}">{{post.author}}</a>
+                    </li>
+                    <li class="post-date">
+                        <i class="fa fa-calendar"></i> {{post.date}}
+                    </li>
+                    <li class="post-category">
+                        <i class="fa fa-folder"></i> <a href="{{post.category.link}}">{{post.category}}</a>
+                    </li>
+                </ul>
+            </header>
+            <section class="post-content">
+                <p class="post-excerpt">{{post.get_preview(50)}}</p>
+            </section>
+        </div>
+    </article>
+{% endblock %}

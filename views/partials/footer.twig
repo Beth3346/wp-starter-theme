@@ -1,0 +1,6 @@
+<footer class="main-footer">
+    {% include "partials/menu.twig" with {'menu': footer_nav.get_items, 'nav_class': 'footer-nav', 'ul_class': 'footer-menu elr-inline-list elr-text-center'} %}
+    <small class="copyright elr-text-center">
+        {{site.name}} &copy; {{now|date('Y')}} All Rights Reserved.
+    </small>
+</footer>

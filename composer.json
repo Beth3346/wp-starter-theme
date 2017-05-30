@@ -1,0 +1,56 @@
+{
+    "name": "elr/elr-portfolio",
+    "type": "wordpress-theme",
+    "license": "MIT",
+    "description": "WordPress theme for portfolio and resumè sites",
+    "homepage": "http://www.elizabeth-rogers.com",
+    "authors": [
+    {
+        "name": "Elizabeth Rogers",
+        "email": "beth@elizabeth-rogers.com",
+        "homepage": "https://github.com/Beth3346"
+    }
+    ],
+    "keywords": [
+        "wordpress",
+        "theme",
+        "twig",
+        "timber"
+    ],
+    "support": {
+    },
+    "require": {
+        "php": ">=5.6.0",
+        "composer/installers": "~1.0",
+        "timber/timber": "1.2.4",
+        "elr/wpadmin": "^0.1.0",
+        "elr/wpsetup": "^0.0.1",
+        "elr/wpsecurity": "^0.0.1",
+        "elr/wpcustomposts": "^0.0.2",
+        "elr/wpthemeoptions": "^0.0.1",
+        "elr/wpshortcodes": "^0.0.2"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.8"
+    },
+    "scripts": {
+        "test": [
+            "phpcs"
+        ],
+        "fix": [
+            "phpcbf"
+        ]
+    },
+    "archive" : {
+        "exclude": [
+            ".editorconfig",
+            ".gitattributes",
+            ".gitignore",
+            ".travis.yml",
+            "CONTRIBUTING.md",
+            "phpcs.xml",
+            "phpunit.xml",
+            "tests"
+        ]
+    }
+}

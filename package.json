@@ -1,0 +1,35 @@
+{
+  "name": "wp-starter-theme",
+  "version": "0.0.1",
+  "description": "WordPress starter theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Beth3346/wp-starter-theme.git"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-clean-css": "^3.0.3",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect-php": "0.0.8",
+    "gulp-csslint": "^1.0.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-jshint": "^2.0.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-scss-lint": "^0.4.0",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "imagemin-jpegtran": "^5.0.2",
+    "jshint": "^2.9.3",
+    "node-sass": "^4.5.2"
+  },
+  "dependencies": {
+    "elr-sass-utilities": "^3.1.0"
+  }
+}

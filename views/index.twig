@@ -1,0 +1,13 @@
+{% extends "page.twig" %}
+
+{% block content %}
+<article>
+    <h1 class="page-title">{{posts[0].type.label}}</h1>
+    <div class="post-loop">
+        {% for post in posts %}
+            {% include ['teases/tease-'~post.post_type~'.twig', 'teases/tease.twig'] %}
+        {% endfor %}
+    </div>
+    {% include 'partials/pagination.twig' with {'posts': posts} %}
+</article>
+{% endblock %}
