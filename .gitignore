@@ -223,4 +223,3 @@ node_modules/
 *.scssc
 .sass-cache/
 vendor/
-.travis.yml
