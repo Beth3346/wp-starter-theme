@@ -3,13 +3,13 @@
 (function ($) {
     'use strict';
 
-    const gotoSection = function gotoSection(e) {
+    var gotoSection = function gotoSection(e) {
         e.preventDefault();
 
-        const $that = $(this);
-        const target = $that.attr('href');
-        const $content = $('body, html');
-        const $target = $(target);
+        var $that = $(this);
+        var target = $that.attr('href');
+        var $content = $('body, html');
+        var $target = $(target);
 
         $content.stop().animate({
             'scrollTop': $target.position().top - 50

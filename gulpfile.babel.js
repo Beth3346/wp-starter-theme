@@ -71,7 +71,7 @@ gulp.task('jshint', function () {
 gulp.task('babel', ['jshint', 'clean:scripts'], function () {
     return gulp.src(paths.scripts)
         .pipe(babel({
-            presets: ['es2015']
+            presets: ['env']
         }))
         .pipe(gulp.dest('assets/js/'));
 });
